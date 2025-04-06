@@ -320,3 +320,17 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+#deadlines {
+    margin-top: 6pt;
+    margin-bottom: 6pt;
+}
+#deadlines td {
+    /* background-color: red; */
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    /* color: rgb(238, 238, 238); */
+    /* background-color: #990000; */
+    border: 1px solid black;
+}
