@@ -183,22 +183,6 @@ h4.subtitle {
     object-fit: contain;
 }
 
-.caption {
-    padding: 10px 0px 3px 0px;
-    margin: 0px 0px 3px 0px;
-    text-align: center;
-    font-size: 13pt;
-    font-weight: bold;
-}
-.caption span {
-    font-size: 11pt;
-    font-weight: normal;
-    /* line-height: 1em !important; */
-    /* color: red; */
-}
-
-.caption a:hover {text-decoration:none;}
-
 table {
     text-align: left;
 }
@@ -307,7 +291,34 @@ span.paper-authors {
 .speaker-title {
     font-weight: 400;
     line-height: 1.1;
+    font-size: 11.5pt !important;
+    /* font-style: italic; */
 }
+
+.speaker-affiliation {
+    /* font-weight: 400;
+    line-height: 1.1; */
+    font-size: 10pt !important;
+    /* color: red; */
+}
+
+
+.caption {
+    padding: 10px 0px 3px 0px;
+    margin: 0px 0px 3px 0px;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.caption span {
+    /* font-size: 11pt; */
+    font-weight: normal;
+    /* line-height: 1em !important; */
+    /* color: red; */
+}
+
+.caption a:hover {text-decoration:none;}
+
 
 .video {
     position: relative;
